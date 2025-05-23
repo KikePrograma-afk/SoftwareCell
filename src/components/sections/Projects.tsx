@@ -64,15 +64,48 @@ const ProjectCard: React.FC<Project> = ({ title, category, description, imageUrl
 
 const Projects = () => {
   const projects: Project[] = [
-    // Puedes agregar tus proyectos aquí siguiendo este formato:
-    // {
-    //   title: "Nombre de tu proyecto",
-    //   category: "Categoría (ej: Web, App, Sistema)",
-    //   description: "Breve descripción del proyecto.",
-    //   imageUrl: "URL de la imagen del proyecto",
-    //   delay: 100 // Ajusta el delay si tienes varios proyectos para la animación
-    // },
-    // ... más proyectos
+    {
+      title: "E-commerce para Boutique de Ropa",
+      category: "Tienda Online",
+      description: "Plataforma completa de compras con carrito, pasarela de pagos y gestión de inventario.",
+      imageUrl: "https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      delay: 100
+    },
+    {
+      title: "Sistema de Tickets para Festival",
+      category: "Ticketera",
+      description: "Plataforma de venta y gestión de entradas con códigos QR e impresión integrada.",
+      imageUrl: "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      delay: 200
+    },
+    {
+      title: "App de Control de Stock",
+      category: "Sistema de Inventario",
+      description: "Gestión integral de inventario con seguimiento de productos, alertas y reportes.",
+      imageUrl: "https://images.pexels.com/photos/4481259/pexels-photo-4481259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      delay: 300
+    },
+    {
+      title: "Videojuego Móvil Educativo",
+      category: "Desarrollo Unity",
+      description: "Juego interactivo de aprendizaje para niños con mecánicas divertidas y contenido pedagógico.",
+      imageUrl: "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      delay: 400
+    },
+    {
+      title: "Portal Inmobiliario",
+      category: "Aplicación Web",
+      description: "Plataforma de búsqueda y gestión de propiedades con filtros avanzados y mapas interactivos.",
+      imageUrl: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      delay: 500
+    },
+    {
+      title: "Landing Page Corporativa",
+      category: "Diseño Web",
+      description: "Sitio web de alto impacto visual con animaciones y formularios de contacto integrados.",
+      imageUrl: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      delay: 600
+    }
   ];
 
   return (

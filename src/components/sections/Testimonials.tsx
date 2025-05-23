@@ -16,25 +16,25 @@ const Testimonials = () => {
 
   const testimonials: Testimonial[] = [
     {
-      quote: "Espere 8 años que alguien desarrollara ese sistema de control de stock y ticketera para mi local de comida y gracias a ellos lo tuve en tan solo 3 dias !!",
-      author: "Burgergrills",
-      position: "", // Puesto no especificado
-      company: "", // Empresa no especificada
-      avatarUrl: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" // Mantengo la imagen por defecto
+      quote: "DevSolutions transformó por completo nuestro negocio con un sistema de gestión de inventario que optimizó nuestros procesos y redujo costos de operación en un 30%.",
+      author: "Carlos Méndez",
+      position: "Director de Operaciones",
+      company: "Distribuidora El Norte",
+      avatarUrl: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      quote: "Excelente trabajo de los chicos en el poncho impecable ante cientos de miles de personas !!",
-      author: "Natalia Duzzo",
-      position: "", // Puesto no especificado
-      company: "", // Empresa no especificada
-      avatarUrl: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" // Mantengo la imagen por defecto
+      quote: "El sistema de ticketera que desarrollaron para nuestro festival cultural superó todas las expectativas. Intuitivo, rápido y con un soporte técnico excepcional.",
+      author: "Lucía Fernández",
+      position: "Coordinadora de Eventos",
+      company: "Festival Primavera",
+      avatarUrl: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      quote: "Gracias por ayudarme y por su excelente trabajo estan invitados al siguien viaje a las estrellas !!",
-      author: "Viaje a las estrellas",
-      position: "", // Puesto no especificado
-      company: "", // Empresa no especificada
-      avatarUrl: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" // Mantengo la imagen por defecto
+      quote: "Después de tres intentos fallidos con otras empresas, DevSolutions logró entregar exactamente lo que necesitábamos: una tienda online potente, segura y fácil de usar.",
+      author: "Martín Gutiérrez",
+      position: "CEO",
+      company: "Moda Urbana",
+      avatarUrl: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ];
 

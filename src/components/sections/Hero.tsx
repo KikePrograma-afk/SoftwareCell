@@ -18,7 +18,7 @@ const Hero = () => {
           <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
             <div className="flex items-center gap-3 mb-6">
               <Code2 className="h-10 w-10 text-teal-400" />
-              <h2 className="text-2xl font-bold text-teal-400">Tu idea Catamarca</h2>
+              <h2 className="text-2xl font-bold text-teal-400">DevSolutions</h2>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Transformamos Ideas en <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-emerald-300">Soluciones Digitales</span>

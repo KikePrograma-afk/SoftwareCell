@@ -67,7 +67,7 @@ const Contact = () => {
                   <div>
                     <h4 className="text-lg font-semibold text-teal-300 mb-1">Ubicación</h4>
                     <address className="not-italic text-gray-300">
-                      Catamarca<br />
+                      Ciudad Autónoma de Buenos Aires<br />
                       Argentina
                     </address>
                   </div>
@@ -112,7 +112,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold mb-6 text-gray-800">Envíanos un Mensaje</h3>
               
               <form 
-                action="https://formsubmit.co/programadorescatamarca@gmail.com" 
+                action="https://formsubmit.co/superkikekokero@gmail.com" 
                 method="POST" 
                 className="space-y-6"
               >
@@ -158,9 +158,8 @@ const Contact = () => {
                     name="subject"
                     required
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition"
-                    defaultValue="" // Usamos defaultValue aquí
                   >
-                    <option value="" disabled>Selecciona un servicio</option> {/* Eliminamos el atributo selected */}
+                    <option value="" disabled selected>Selecciona un servicio</option>
                     <option value="Web">Páginas Web</option>
                     <option value="WebApp">Aplicaciones Web</option>
                     <option value="Stock">Gestores de Stock</option>

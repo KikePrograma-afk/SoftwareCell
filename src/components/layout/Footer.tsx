@@ -55,7 +55,7 @@ const Footer = () => {
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4">Contacto</h3>
             <address className="not-italic text-gray-400">
-              <p className="mb-2">Catamarca</p>
+              <p className="mb-2">Ciudad Autónoma de Buenos Aires</p>
               <p className="mb-2">Argentina</p>
               <p className="mb-2">programadorescatamarca@gmail.com</p>
               <p className="mb-2">+54 3834 997640</p>
